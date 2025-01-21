@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a273335-1602-4af8-87ed-6442b18f3748" name="Changes" comment="создание классов для БД">
-      <change afterPath="$PROJECT_DIR$/.idea/HomePro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seed_data.py" afterDir="false" />
+    <list default="true" id="9a273335-1602-4af8-87ed-6442b18f3748" name="Changes" comment="Программа для выолнения поставленной задачи">
+      <change afterPath="$PROJECT_DIR$/Conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seed_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/seed_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +36,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/learn/HomePro/venv&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;two.files.diff.last.used.folder&quot;: &quot;D:/learn/HomePro/venv&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/learn/HomePro",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "two.files.diff.last.used.folder": "D:/learn/HomePro/venv"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learn\HomePro" />
       <recent name="D:\learn\HomePro\DB" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -56,7 +55,7 @@
       <recent name="D:\learn\HomePro\DB" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.seed_data">
+  <component name="RunManager" selected="Python.create_db (1)">
     <configuration name="create_db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HomePro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,10 +184,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.create_db (1)" />
         <item itemvalue="Python.seed_data" />
         <item itemvalue="Python.queries" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.create_db (1)" />
         <item itemvalue="Python.models (1)" />
       </list>
     </recent_temporary>
@@ -216,7 +215,42 @@
       <option name="project" value="LOCAL" />
       <updated>1737465064928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавление тестовых данных и создание прототипа будущих функций">
+      <created>1737465475406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737465475407</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Демонстраци работы запросов к БД">
+      <created>1737465538384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737465538384</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Установка необходимых модулей и окружения">
+      <created>1737465569258</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737465569258</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Программа для выолнения поставленной задачи">
+      <created>1737465595424</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737465595424</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Программа для выолнения поставленной задачи">
+      <created>1737465621461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737465621461</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +267,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создание БД постгре" />
     <MESSAGE value="создание классов для БД" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание классов для БД" />
+    <MESSAGE value="Добавление тестовых данных и создание прототипа будущих функций" />
+    <MESSAGE value="Демонстраци работы запросов к БД" />
+    <MESSAGE value="Установка необходимых модулей и окружения" />
+    <MESSAGE value="Программа для выолнения поставленной задачи" />
+    <option name="LAST_COMMIT_MESSAGE" value="Программа для выолнения поставленной задачи" />
   </component>
 </project>

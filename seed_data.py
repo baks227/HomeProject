@@ -1,9 +1,9 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from models import Category, Product, User, Order, OrderItem
+import Conf
 
-
-DATABASE_URL = "postgresql://postgres:Qq-123456@127.0.0.1:5432"
+DATABASE_URL=Conf.connect()
 
 engine = create_engine(DATABASE_URL)
 Session = sessionmaker(bind=engine)
